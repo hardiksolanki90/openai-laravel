@@ -28,9 +28,7 @@ Production-ready Laravel package for OpenAI API integration with database persis
 
 ## Installation
 
-This package is not yet published on Packagist. Until it is, install it via a path or VCS repository.
-
-**Local path repo** (developing against a checkout on the same machine):
+This package is not yet published on Packagist. Install it via a local path repository:
 
 ```json
 {
@@ -42,26 +40,6 @@ This package is not yet published on Packagist. Until it is, install it via a pa
 
 ```bash
 composer require hardiksolanki/openai-laravel:@dev
-```
-
-**VCS repo** (once pushed to GitHub):
-
-```json
-{
-    "repositories": [
-        { "type": "vcs", "url": "https://github.com/you/laravel-openAI" }
-    ]
-}
-```
-
-```bash
-composer require hardiksolanki/openai-laravel:dev-main
-```
-
-**Once published to Packagist:**
-
-```bash
-composer require hardiksolanki/openai-laravel
 ```
 
 Laravel's package auto-discovery picks up the service provider and `OpenAI` facade automatically from `composer.json`'s `extra.laravel` block — no manual registration needed.
